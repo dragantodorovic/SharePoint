@@ -10,7 +10,6 @@
         {
             //get the display name
             displayName = $(this).attr("data-displayName");
-
             displayName  = displayName.replace(/&(?!amp;)/g,'&amp;');
             elem = $(this);
             //find the corresponding field 
