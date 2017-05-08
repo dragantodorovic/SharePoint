@@ -6,7 +6,7 @@
 <script type="text/javascript">
     $(document).ready(function() {
         //loop      
-        $("span.gagiForm").each(function()
+        $("span.spForm").each(function()
         {
             //get the display name
             displayName = $(this).attr("data-displayName");
