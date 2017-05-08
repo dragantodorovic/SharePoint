@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en" xmlns:mso="urn:schemas-microsoft-com:office:office" xmlns:msdt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>jQuery UI Tabs - Default functionality</title>
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="/resources/demos/style.css">
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script>
+  $( function() {
+    $( "#tabs" ).tabs();
+  } );
+  </script>
+</head>
+<body>
+ 
+<div id="tabs">
+  <ul>
+    <li><a href="#tabs-1">Tab 1</a></li>
+    <li><a href="#tabs-2">Tab 2</a></li>
+    <li><a href="#tabs-3">tab 3</a></li>
+  </ul>
+  <div id="tabs-1" style="padding-bottom:10px">
+    <p><b>Task name:</b><br>
+    <span class="spForm" data-displayName="Task Name"></span></p>
+  </div>
+  <div id="tabs-2" style="padding-bottom:10px">
+    <p><b>Start Date:</b><br>
+    <span class="spForm" data-displayName="Start Date"></span></p>
+  </div>
+  <div id="tabs-3" style="padding-bottom:10px">
+    <b>Assigned To</b>:<br>
+    <span class="spForm" data-displayName="Assigned To"></span>
+  </div>
+</div>
+</body>
+</html>
